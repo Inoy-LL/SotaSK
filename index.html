@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Минимальный конструктор HTML страницы</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div class="panel">
+      <button class="component" data-type="button">Кнопка</button>
+      <input type="text" class="component" data-type="input" placeholder="Текстовое поле">
+      <label class="switch component" data-type="switch">
+        <input type="checkbox">
+        <span class="slider"></span>
+      </label>
+    </div>
+    <div class="workspace">
+      <div class="grid"></div>
+    </div>
+    <div class="settings">
+      <h2>Настройки компонента</h2>
+      <form>
+        <label>
+          Текст:
+          <input type="text" name="text">
+        </label>
+      </form>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
