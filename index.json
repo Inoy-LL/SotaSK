@@ -1,29 +1,7 @@
-{
-    "okno1":{
-  
-    "button":{
-    "button":{"option":{"name":"Новая12","s_on":"Тест 1","s_off":"Повтор"},"link":{"l0":["text","text","data"],"l1":["text","text","data"]}},
-    "button1":{"option":{"name":"Но","s_on":"Тест 1","s_off":"Повтор"},"link":{"l0":["text","text1","data"],"l1":["text","text1","data"]}}
-    },    
-    "text":{
-        "text":{"option":{"text":"Пока1"}}  
-    }
-    },
-        "okno2":{
-            "button":{
-                "button1":{"link":{"l0":["text","text1","data"],"l1":["text","text1","data"]}}
-            },
-            "text":{
-                "text1":{"option":{"text":"Привет"}}
-                }
-        },
-        "okno3":{
-            "button":{
-                "button1":{"link":{"l0":["text","text4","data"],"l1":["text","text4","data"]}}
-            },
-            "text":{
-                "text3":{"option":{"text":"Привет"}},
-                "text4":{"option":{"text":"Stop"}}
-                }
-        }
-    }  
+{"dnaEdit":{
+        "main":{"main":{
+            "edit":{}
+        }},
+            "button":{"button":{"data":{},"link":{"on":["dnadel","dnadel","data"]}},"button1":{"data":{},"link":{"on":["dnadel","dnadel","data"]}}},
+            "dnadel":{"dnadel":{}}}}
+            

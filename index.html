@@ -1,70 +1,39 @@
-<!DOCTYPE HTML>
-<html><head>
-<meta charset="utf-8">
- <title>Sota SK</title>
-    <link rel="icon" href="/favicon.ico">
-    <script type="text/javascript" src="fl/web/main/js/main.js"></script>
-    <script type="text/javascript" src="fl/web/main/js/download.js"></script>
-    <script type="text/javascript" src="fl/web/main/js/insert.js"></script>
-
-</head>
-<body>
-    <script>
-mainSchema={
-    "edit":{
-        // "debag":{"debag":{}}, 
-        "grid":{
-    "grid":{"option":{
-    "left":"gird_left",
-    "right":"gird_rigt",
-    "content":"gird_content"
-    }}
+<!DOCTYPE HTML><html><head><meta charset="utf-8">
+<title>Sota SK</title>
+<link rel="icon" href="/favicon.ico">
+<script src="/sota/web/main/veles.js"></script>
+<!-- <link rel="stylesheet" href="debug.css"> -->
+</head><body>
+<script>
+writeData({"editorShem":{
+    "gird":{"gird1":{"data":{"left":{"id":"gird_left"},
+    "right":{"id":"gird_rigt"},
+    "content":"gird_content"},"link":{"on":["dnadel","dnadel","data"]}}},
+    "editor":{
+        "edit":{
+            "data":{
+                "main_id":"gird_content",
+                "url":"veles"
+            }
+        }
     },
     "panel_c":{
         "p_comp":{
-            "option":{
-                "main_id":"gird_left"
+            "data":{
+                "main_id":"gird_left",
+                "platform":"web",
+                "element":[
+                    ["button","Button"],
+                    ["text","Text"]
+                ]
             }
         }
-    },
-    "editor":{
-        "edit":{
-            "option":{
-                "main_id":"gird_content"
-            }
-        }
-    },
-    
-    "button":{
-    "button":{"option":{"main_id":"gird_left","name":"Отправить схему","s_on":
-    {
-        "test":12
-}
-    ,"s_off":"n"},"link":{"l0":["editor","edit","data"],"l1":["editor","edit","dat"]}},
-    },
-},
-}
-
-editorSchema={
-    "test":{
-        "button":{
-    "button1":{"option":{"main_id":"gird_rigt","name":"Отправить схему","s_on":
-"Привет"
-    ,"s_off":"n"},"link":{"l0":["text","text1","data"],"l1":["text","text1","dat"]}},
-    },
-    "text":{
-        "text1":{
-            "option":{
-                "main_id":"gird_rigt"
-            },
-            "editor":{
-"edit":{"x":10,"y":10}
-            }
-        }
-    },
     }
 }
+    })
+  
 
-    </script> 
-</body>
-</html>
+</script>
+
+</body></html>
+

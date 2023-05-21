@@ -1,0 +1,10 @@
+{
+    "file":[
+      ["c","message.min","css"],
+      ["c","main","js"]
+      ],
+      "data":{
+        "main_id":"body",
+        "text":"Текст1"
+        }
+    }

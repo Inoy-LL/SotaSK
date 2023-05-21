@@ -1,0 +1,15 @@
+{
+    "file":[
+      ["c","editor","css"],
+      ["c","js/config","js"],
+      ["c","editor","js"],
+      ["c","js/link","js"],
+      ["c","js/component","js"],
+      ["c","js/muve","js"],
+      ["c","js/editor","js"]
+      ],
+      "data":{
+        "main_id":"body",
+        "tupe":"json"
+        }
+    }

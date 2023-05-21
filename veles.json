@@ -1,0 +1,23 @@
+{"VPS":{
+"web":{"web":{"edit":{"data":{"pos":[25,35],"l":5,"h":5},"link":{"l1":[1,["hub","hub1"],1]}}}},
+"RP":{"RP":{"edit":{"data":{"pos":[65,35],"l":5,"h":5},"link":{"l4":[1,["hub","hub2"],1]}}}},
+"console":{
+    "console1":{"edit":{"data":{"pos":[105,35],"l":5,"h":5}}},
+    "console2":{"edit":{"data":{"pos":[57,45],"l":5,"h":5}}}
+    },
+"hub":{
+    "hub1":{"edit":{"data":{"pos":[45,35],"l":5,"h":5},"link":{"l2":[1,["RP","RP"],1],"l3":[2,["console","console2"],1]},"velue":{}}},
+    "hub2":{"edit":{"data":{"pos":[85,35],"l":5,"h":5},"link":{"l5":[1,["web","web"],1],"l6":[2,["console","console1"],1]}}}}          
+},
+"velesUA":{
+    "web":{"web":{"edit":{"data":{"pos":[25,35],"l":5,"h":5},"link":{"l1":[1,["hub","hub1"],1]}}}},
+    "RP":{"RP":{"edit":{"data":{"pos":[65,35],"l":5,"h":5},"link":{"l4":[1,["hub","hub2"],1]}}}},
+    "console":{
+        "console1":{"edit":{"data":{"pos":[105,35],"l":5,"h":5}}},
+        "console2":{"edit":{"data":{"pos":[57,45],"l":5,"h":5}}}
+        },
+    "hub":{
+        "hub1":{"edit":{"data":{"pos":[45,35],"l":5,"h":5},"link":{"l2":[1,["RP","RP"],1],"l3":[2,["console","console2"],1]},"velue":{}}},
+        "hub2":{"edit":{"data":{"pos":[85,35],"l":5,"h":5},"link":{"l5":[1,["web","web"],1],"l6":[2,["console","console1"],1]}}}}          
+    }
+}

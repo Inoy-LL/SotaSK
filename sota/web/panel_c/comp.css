@@ -1,0 +1,33 @@
+.comp {
+    float: left;
+    margin: 5px;
+    padding: 5px;
+    color: #556068;
+    float: left;
+    cursor: all-scroll;
+    border-radius: 3px;
+    background-color: #fff;
+  }
+  
+  .comp:hover {
+    box-shadow: 0 10px 20px rgba(0,0,0,0.10), 0 3px 3px rgba(0,0,0,0.13);
+  } 
+  
+  .center_c {
+  position: relative;
+  height: 70px;
+  width: 70px;
+  display:table-cell;
+  vertical-align: middle;
+  text-align: center;
+  }
+  
+  .text_c {
+    font-family: Verdana, Arial, Helvetica, sans-serif; 
+      font-size: 11px; /* Размер шрифта в пунктах */ 
+      margin: 0;
+      padding: 0;
+      width: 70px;
+  }
+  
+  

@@ -1,0 +1,17 @@
+{
+    "file":[
+      ["s","icon.min","css"],
+      ["s","reset","css"],
+      ["s","site","css"],
+      ["c","button.min","css"],
+      ["c","button","js"],
+      ["s","edit","json"]
+      ],
+      "data":{
+        "main_id":"body",
+        "name":"Кнопка",
+        "s_on":"Кнопка нажата",
+        "s_off":"Кнопка отпущена"
+        }
+    }
+  

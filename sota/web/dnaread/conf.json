@@ -1,0 +1,11 @@
+{
+    "file":[
+      ["c","reed","js"],
+      ["c","main","js"],
+      ["s","edit","json"]
+      ],
+      "data":{
+        "main_id":"body",
+        "text":"Текст"
+        }
+    }

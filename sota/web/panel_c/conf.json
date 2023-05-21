@@ -1,0 +1,9 @@
+{
+    "file":[
+      ["c","panel_c","css"],
+      ["c","panel_c","js"]
+      ],
+      "data":{
+        "main_id":"body"
+        }
+    }
