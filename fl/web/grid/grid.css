@@ -1,0 +1,47 @@
+
+html, body { height: 100%; 
+  margin:0; padding:0;
+}
+
+:root {
+  --orange: #e6e9ec;
+  --yellow: Khaki;
+  --green: YellowGreen;
+  --beige: rgb(255, 255, 255);
+  }
+
+  .wrapper {
+    height: 100%;
+    display: table;
+    width: 100%;
+  }
+  
+  .header {
+    display: table-row;
+    height: 1px;
+    background: var(--yellow);
+  }
+  
+  .main {
+    height: 100%;
+    display: table;
+    width: 100%;
+  }
+  
+  .vc_box {
+     vertical-align: top; /*Выравнивание по верхнему краю ячеек */
+    display: table-cell;
+  }
+  
+  .sidebar {
+    width: 180px;
+    background: var(--orange);
+  }
+  
+  .footer {
+    display: table-row;
+    height:1px;
+    background: var(--green);
+    color: var(--beige);
+  }
+  

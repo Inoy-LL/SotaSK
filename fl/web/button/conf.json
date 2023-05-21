@@ -1,0 +1,14 @@
+{
+    "file":[
+      ["s","bulma.min","css"],
+      ["c","button","js"]
+      ],
+      "option":{
+        "necessity":1,
+        "main_id":"body",
+        "name":"Кнопка",
+        "s_on":"Кнопка нажата",
+        "s_off":"Кнопка отпущена"
+        }
+    }
+  

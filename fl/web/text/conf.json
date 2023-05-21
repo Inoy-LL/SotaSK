@@ -1,0 +1,10 @@
+{
+    "file":[
+      ["s","bulma.min","css"],
+      ["c","text","js"]
+      ],
+      "option":{
+        "main_id":"body",
+        "text":"Текст"
+        }
+    }

@@ -1,0 +1,9 @@
+{
+    "file":[
+      ["c","panel_f","css"],
+      ["c","panel_f","js"]
+      ],
+      "option":{
+        "main_id":"body"
+        }
+    }

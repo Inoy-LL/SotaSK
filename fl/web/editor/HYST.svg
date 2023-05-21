@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<svg width="24" height="24" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+ <!-- Generator: Sketch 3.6.1 (26313) - http://www.bohemiancoding.com/sketch -->
+ <defs>
+  <symbol id="svg_17" height="24" width="24" xmlns:svg="http://www.w3.org/2000/svg" xmlns="http://www.w3.org/2000/svg">
+   <!-- Generator: Sketch 3.6.1 (26313) - http://www.bohemiancoding.com/sketch -->
+   <title>ic_ADC</title>
+   <desc>Created with Sketch.</desc>
+   <g>
+    <title>Layer 1</title>
+    <g id="svg_14" fill="none" fill-rule="evenodd">
+     <g id="svg_15" stroke="#25282A">
+      <path d="m1.81201,12.3534c0,0 1.56374,4.43065 4.45954,4.43065c2.89581,0 4.83691,-3.21262 6.76123,-5.65296c1.92431,-2.44035 2.49855,-4.35052 5.22955,-4.35052c2.731,0 4.5213,5.00174 4.5213,5.00174" id="svg_16" stroke-linecap="round"/>
+     </g>
+    </g>
+   </g>
+  </symbol>
+ </defs>
+ <title>ic_ADC</title>
+ <desc>Created with Sketch.</desc>
+ <g>
+  <title>Layer 1</title>
+  <line stroke="#000000" id="svg_1" y2="2.188935" x2="23.079164" y1="2.188935" x1="1.054322" fill="none"/>
+  <line id="svg_2" stroke="#000000" y2="21.718232" x2="23.053071" y1="21.718232" x1="1.02823" fill="none"/>
+  <g id="svg_13">
+   <line transform="rotate(-180 11.861454963684082,7.035003662109375) " id="svg_10" y2="4.031616" x2="11.861455" y1="10.038391" x1="11.861455" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke="#000000" fill="none"/>
+   <line transform="rotate(-180 10.459874153137207,5.566680908203124) " id="svg_11" y2="4.565551" x2="11.594487" y1="6.56781" x1="9.325261" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke="#000000" fill="none"/>
+   <line id="svg_12" transform="rotate(-281.04400634765625 13.289126396179201,5.592778205871582) " y2="4.591649" x2="14.423739" y1="6.593907" x1="12.154513" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke="#000000" fill="none"/>
+  </g>
+  <use x="4.622824" y="45.819153" transform="matrix(0.8906338984869344,0,0,0.6092015766763409,-3.160696314841607,-23.503418633203637) " xlink:href="#svg_17" id="svg_18"/>
+  <g id="svg_19"/>
+  <g id="svg_20">
+   <line id="svg_3" y2="14.069001" x2="11.866517" y1="20.075776" x1="11.866517" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke="#000000" fill="none"/>
+   <line id="svg_4" y2="17.673066" x2="14.402711" y1="19.675325" x1="12.133485" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke="#000000" fill="none"/>
+   <line transform="rotate(-101.04402160644531 10.438843727111818,18.64810180664063) " id="svg_5" y2="17.646972" x2="11.573457" y1="19.64923" x1="9.304231" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke="#000000" fill="none"/>
+  </g>
+ </g>
+</svg>

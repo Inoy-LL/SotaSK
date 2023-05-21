@@ -1,0 +1,13 @@
+{
+    "file":[
+      ["c","dist/css/grapes.min","css"],
+      ["c","front","css"],
+      ["c","dist/grapes.min","js"],
+      ["c","dist/grapesjs-preset-newsletter","css"],
+      ["c","dist/grapesjs-preset-newsletter.min","js"],
+      ["c","front","js"]
+      ],
+      "option":{
+        "main_id":"body"
+        }
+    }

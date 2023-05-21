@@ -1,0 +1,11 @@
+{
+    "file":[
+      ["c","tree","css"],
+      ["c","tree","js"]
+      ],
+      "option":{
+        "main_id":"body",
+        "checkbox_on":0,
+        "text":"Каталог"
+        }
+    }

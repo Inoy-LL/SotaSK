@@ -1,31 +1,70 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="UTF-8">
-    <title>Минимальный конструктор HTML страницы</title>
-    <link rel="stylesheet" href="style.css">
-  </head>
-  <body>
-    <div class="panel">
-      <button class="component" data-type="button">Кнопка</button>
-      <input type="text" class="component" data-type="input" placeholder="Текстовое поле">
-      <label class="switch component" data-type="switch">
-        <input type="checkbox">
-        <span class="slider"></span>
-      </label>
-    </div>
-    <div class="workspace">
-      <div class="grid"></div>
-    </div>
-    <div class="settings">
-      <h2>Настройки компонента</h2>
-      <form>
-        <label>
-          Текст:
-          <input type="text" name="text">
-        </label>
-      </form>
-    </div>
-    <script src="script.js"></script>
-  </body>
+<!DOCTYPE HTML>
+<html><head>
+<meta charset="utf-8">
+ <title>Sota SK</title>
+    <link rel="icon" href="/favicon.ico">
+    <script type="text/javascript" src="fl/web/main/js/main.js"></script>
+    <script type="text/javascript" src="fl/web/main/js/download.js"></script>
+    <script type="text/javascript" src="fl/web/main/js/insert.js"></script>
+
+</head>
+<body>
+    <script>
+mainSchema={
+    "edit":{
+        // "debag":{"debag":{}}, 
+        "grid":{
+    "grid":{"option":{
+    "left":"gird_left",
+    "right":"gird_rigt",
+    "content":"gird_content"
+    }}
+    },
+    "panel_c":{
+        "p_comp":{
+            "option":{
+                "main_id":"gird_left"
+            }
+        }
+    },
+    "editor":{
+        "edit":{
+            "option":{
+                "main_id":"gird_content"
+            }
+        }
+    },
+    
+    "button":{
+    "button":{"option":{"main_id":"gird_left","name":"Отправить схему","s_on":
+    {
+        "test":12
+}
+    ,"s_off":"n"},"link":{"l0":["editor","edit","data"],"l1":["editor","edit","dat"]}},
+    },
+},
+}
+
+editorSchema={
+    "test":{
+        "button":{
+    "button1":{"option":{"main_id":"gird_rigt","name":"Отправить схему","s_on":
+"Привет"
+    ,"s_off":"n"},"link":{"l0":["text","text1","data"],"l1":["text","text1","dat"]}},
+    },
+    "text":{
+        "text1":{
+            "option":{
+                "main_id":"gird_rigt"
+            },
+            "editor":{
+"edit":{"x":10,"y":10}
+            }
+        }
+    },
+    }
+}
+
+    </script> 
+</body>
 </html>

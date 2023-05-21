@@ -1,0 +1,8 @@
+/*! debug.css | MIT License | zaydek.github.com/debug.css */
+*:not(path):not(g) {
+	color:                    rgba(48, 40, 40, 0.9) !important;
+	background:               rgba(69, 168, 142, 0.733) !important;
+	outline:    solid 0.1rem rgba(59, 58, 58, 0.5) !important;
+
+	box-shadow: none !important;
+}
